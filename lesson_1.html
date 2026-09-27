@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="lesson_1.css" />
+    <title>My Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <h1>MY PORTFOLIO</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Hello, I'm Cardoso</h2>
+        <p>I'm a web developer who loves creating clean, modern, and user-friendly websites.</p>
+        <p id="buttons"><a href="#projects">View Projects</a> | <a href="#contact">Hire Me</a></p>
+    </section>
+
+    <section id="about">
+
+        <h2>About Me</h2>
+        <p>I am a passionate designer and developer with experience building responsive websites and digital
+            experiences.</p>
+        <p>I aim to create websites that are visually appealing, easy to use, and effective for businesses and users.
+        </p>
+        <p>I have worked on personal projects, landing pages, and simple web applications using modern web technologies.
+        </p>
+        <button id="themebutton"> dark mode </button>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Responsive Design</li>
+            <li>UI/UX</li>
+            <li>Git</li>
+            <li>Bootstrap</li>
+            <li>Figma</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <h3>Project One</h3>
+        <p>A responsive business landing page designed to showcase services and improve client engagement.</p>
+
+        <h3>Project Two</h3>
+        <p>A personal portfolio website built with a modern and minimal design focused on readability and style.</p>
+
+        <h3>Project Three</h3>
+        <p>A small web app for managing tasks with a clean interface and smooth user experience.</p>
+    </section>
+
+    <section id="contact">
+        <form id="contact-form" >  
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+          
+    </section>
+
+    <footer>
+        <p>© <span id="current-year"></span> cardoso. All rights reserved.</p>
+    </footer>
+    <script src="lesson_1.js"></script>
+</body>
+
+</html>
